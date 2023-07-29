@@ -5,9 +5,9 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
+      name: 'DashboardComponent',
       component: () => import('../views/backend/dashboard/DashboardComponent.vue')
-    },
+    }
   ]
 })
 
